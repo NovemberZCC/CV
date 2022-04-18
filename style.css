@@ -1,0 +1,163 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: 	#808000;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 150%;
+  /* Old browsers */
+background: #cc9900;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(-45deg, #ffcc00, #ffff99);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #cceeff, #999966);
+    justify-content: top;
+}
+
+h1 {
+color: #F0E68C;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+text-align: center;
+}
+
+h2 {
+  color: #00000049;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+  }
+
+
+p {
+  color: 	#FFF8DC;
+line-height: 1.3em;
+text-align: center;
+width: 100%;
+}
+
+
+}
+.byline {
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  }
+
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-style: italic;
+    line-height: 34px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    width: 90%;
+    }
+
+
+.image {
+background-image: url("background.jpg");
+background-size: cover;
+background-position: left;
+height: 900px;
+}
+
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: left;
+width: 100px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: brown;
+  color: white;
+  text-align:center;
+}
+
+#pic {
+  text-align: center;  
+}
+table {
+  margin: auto; 
+   border-collapse: collapse;
+   text-align: center;
+	vertical-align: middle;
+}
+thead {
+  background-color: rgba(0, 0, 0, 0.336);
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+caption {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  color: rgba(49, 14, 14, 0.599);
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+thead th {
+  width: 25%;
+  
+}
+.cell-highlight {
+  background-color: rgba(170, 238, 44, 0.808);
+  font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgba(248, 214, 64, 0.493);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(247, 210, 22, 0.829);
+}
+tbody th {
+  background-color: rgba(115, 46, 0, 0.647);
+  color: rgba(255, 255, 255, 0.647);
+  text-align: left;
+}
+tbody tr:nth-child(even) th {
+  background-color: rgba(71, 43, 4, 0.86);
+}
+
+
